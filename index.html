@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <title>Page Web de Base</title>
+
+
+    <header>
+        <h1>MA PHARMACIE</h1>
+        <nav>
+            <ul>
+                <li><a href="#produits">Produits</a></li>
+                <li><a href="#informations">Informations</a></li>
+                <li><a href="#contact">Nous Contacter</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="produits">
+            <h2>Produits</h2>
+            <p>Découvrez nos produits pharmaceutiques de haute qualité conçus pour répondre à vos besoins.</p>
+            <div class="product-list">
+                <div class="product-card">
+                    <img src="image1.jpg.webp" alt="Doliprane">
+                    <h3>Doliprane 1000mg</h3>
+                    <p>Analgésique et antipyrétique pour soulager la douleur et réduire la fièvre.</p>
+
+                    <a href="https://base-donnees-publique.medicaments.gouv.fr/affichageDoc.php?specid=60234100&typedoc=N" class="button">Voir le produit</a>
+                </div>
+                <div class="product-card">
+                    <img src="image2.jpeg" alt="Efferalgan">
+                    <h3>Efferalgan 500mg</h3>
+                    <p>Paracétamol en comprimé effervescent pour un soulagement rapide des douleurs.</p>
+                    <a href="https://base-donnees-publique.medicaments.gouv.fr/affichageDoc.php?typedoc=N&specid=69172447" class="button">Voir le produit</a>
+                </div>
+                <div class="product-card">
+                    <img src="image3.jpeg" alt="Nurofen">
+                    <h3>Nurofen 400mg</h3>
+                    <p>Anti-inflammatoire et analgésique pour traiter les douleurs modérées à intenses.</p>
+                    <a href="https://base-donnees-publique.medicaments.gouv.fr/affichageDoc.php?typedoc=N&specid=64911902" class="button">Voir le produit</a>
+                </div>
+                <div class="product-card">
+                    <img src="image4.jpeg" alt="Spasfon">
+                    <h3>Spasfon Lyoc 80mg</h3>
+                    <p>Antispasmodique pour soulager les douleurs abdominales et les crampes.</p>
+                    <a href="https://base-donnees-publique.medicaments.gouv.fr/affichageDoc.php?typedoc=N&specid=62944693" class="button">Voir le produit</a>
+                </div>
+                <div class="product-card">
+                    <img src="image5.jpeg" alt="Smecta">
+                    <h3>Smecta</h3>
+                    <p>Médicament utilisé pour traiter les diarrhées aiguës et chroniques.</p>
+                    <a href="https://base-donnees-publique.medicaments.gouv.fr/affichageDoc.php?specid=69584073&typedoc=R" class="button">Voir le produit</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="informations">
+            <h2>Informations</h2>
+            <p>Apprenez-en plus sur notre entreprise, nos valeurs et notre engagement envers nos clients.</p>
+            <h1>Notre Localisation</h1>
+            <p><strong>123 Rue Exemple, Toulouse, France</strong></p>
+
+            <div class="map-container">
+                <iframe 
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2624.2645036882094!2d2.2944812156749493!3d48.858844079287606!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66f8bb3e73b17%3A0x40c25d6a22ecdf10!2s123%20Rue%20Exemple%2C%20Paris%2C%20France!5e0!3m2!1sfr!2sfr!4v1632700158942!5m2!1sfr!2sfr" 
+                    allowfullscreen="" 
+                    loading="lazy"></iframe>
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2>Nous Contacter</h2>
+            <p>Pour toute question ou information supplémentaire, n'hésitez pas à nous contacter.</p>
+            <p><strong>contacter nous au 01 23 45 67 89</strong></p>
+             <!-- <a href="#" class="button">Envoyer un message</a> -->
+            <a href="mailto:mapharmacieexemple@gmail.com" class="button">Contactez moi</a>
+        </section>
+    </main>
+    <div class="footer-trigger"></div> <!-- Déclencheur placé avant le footer -->
+<footer>
+        <div class="column">
+            <h3>Suivez-nous</h3>
+            <div class="socials">
+                <a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                <a href="https://www.twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
+                <a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.linkedin.com" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+        </div>
+    </div>
+    <p>&copy; 2024 Mon Site Web. Tous droits réservés.</p>
+</footer>
+
+        <script src="script.js"></script>
+
+</body>
+
+</html>
